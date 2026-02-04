@@ -12,7 +12,7 @@ New developers often struggle with initial configuration and network setup. This
 - Reusable utility for the ecosystem
 
 ## Demo
-Live demo powered by GitHub Pages.
+Live demo powered by GitHub Pages:https://sa1-31.github.io/endless-config-generator/
 
 ## Built with
 HTML, CSS, Vanilla JavaScript
