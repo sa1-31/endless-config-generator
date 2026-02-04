@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Endless Config Generator</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-inner">
+      <img src="endless-logo.png" alt="Endless Logo" class="logo"/>
+      <h1>Endless Config Generator</h1>
+      <p>Generate a starter config for Endless projects in seconds</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="card">
+      <label>Network</label>
+      <select id="network">
+        <option value="testnet">Testnet</option>
+        <option value="mainnet">Mainnet</option>
+      </select>
+
+      <label>Project Type</label>
+      <select id="projectType">
+        <option value="dapp">DApp</option>
+        <option value="script">Script</option>
+        <option value="contract">Smart Contract</option>
+      </select>
+
+      <button onclick="generateConfig()">Generate Config</button>
+    </div>
+
+    <div class="card">
+      <h3>Generated Config</h3>
+      <pre id="output">// Your config will appear here</pre>
+    </div>
+  </main>
+
+  <footer class="footer">
+    Built for the Endless ecosystem · #EndlessDev
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
